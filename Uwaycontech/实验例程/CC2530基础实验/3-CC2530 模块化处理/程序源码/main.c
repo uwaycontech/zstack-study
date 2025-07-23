@@ -1,9 +1,9 @@
 #include<iocc2530.h>                     //头文件
 #include<Headfile.h>
-void delayms(unsigned int xms)          //ms级别延时
+void delayms(uint32_t xms)          //ms级别延时
 {
     for(;xms>0;xms--)
-        for(unsigned int j=587;j>0;j--);
+        for(uint32_t j=587;j>0;j--);
 }
 
 void main(void)

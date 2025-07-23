@@ -7,7 +7,7 @@ void led_init(void)
     P1 = 0x00;
 }
 //LED的亮灭模块，参数一为LED的位数，参数二为LED 的状态
-void led_proc(unsigned char led,unsigned char light)
+void led_proc(uint8_t led,uint8_t light)
 {
     switch(led)
     {

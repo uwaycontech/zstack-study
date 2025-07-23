@@ -2,6 +2,8 @@
 #define _HEADFILE_H_
 
 #include "iocc2530.h"
+#include "stdint.h"
+#include "stdio.h"
 #include "led.h"
 #include "key.h"
 

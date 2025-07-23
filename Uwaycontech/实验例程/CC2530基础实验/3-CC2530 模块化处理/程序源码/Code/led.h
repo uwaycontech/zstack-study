@@ -4,6 +4,6 @@
 #include "Headfile.h"
 
 void led_init(void);
-void led_proc(unsigned char led,unsigned char light);
+void led_proc(uint8_t led,uint8_t light);
 
 #endif
