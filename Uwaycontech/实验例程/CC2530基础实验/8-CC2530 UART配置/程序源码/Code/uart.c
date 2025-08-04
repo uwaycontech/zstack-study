@@ -10,3 +10,13 @@ void uart0_init(void)
     URX0IE = 1;         //使能串口0接收
     EA = 1;             //打开CPU总中断
 }
+
+void uartsendstring(char *data,uint8_t len)
+{
+    for(;len>0;len--)
+    {
+        U0DBUF = *data++;
+        while(UTX0IF == 0);
+        UTX0IF = 0;
+    }
+}

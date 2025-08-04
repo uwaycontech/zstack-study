@@ -1,24 +1,27 @@
 #include "iocc2530.h"                     //头文件
 #include "headfile.h"
 
+char buf[20];
+
 void main(void)
 {
     led_init();
     clk32m_init();
     uart0_init();
-    while(1)
-    {
-    }
+    memset(buf,0,sizeof(buf));                  //往buf内写入长度为buf长度的0
+    sprintf(buf,"Hello World!\n");              //往buf内写入字符串
+    uartsendstring(buf,sizeof(buf));            //发送buf
+    while(1);
 }
 
 #pragma vector = URX0_VECTOR
 __interrupt void uart0_rx(void)
 {
-    char buf;
+    //char buf;
     URX0IF = 0;                 //清除串口0接收标志位
-    buf = U0DBUF;               //从串口0接收器读取数据
-    LED1 = !LED1;
-    U0DBUF = buf;               //将ch放进串口0发送器内
+    //buf = U0DBUF;               //从串口0接收器读取数据
+    //LED1 = !LED1;
+    //U0DBUF = buf;               //将ch放进串口0发送器内
     while(UTX0IF == 0);         //等待串口0发送完毕
     UTX0IF = 0;                 //清除串口0发送标志位
 }

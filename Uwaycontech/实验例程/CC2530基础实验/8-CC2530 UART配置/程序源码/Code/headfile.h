@@ -2,7 +2,10 @@
 #define _HEADFILE_H_
 
 #include "iocc2530.h"
+#include "stdio.h"
 #include "stdint.h"
+#include "string.h"
+#include "stdlib.h"
 #include "led.h"
 #include "key.h"
 #include "delay.h"
