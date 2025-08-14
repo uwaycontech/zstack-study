@@ -59,6 +59,6 @@ void flash_read(uint8_t *data,uint16_t addr,uint8_t length)
         data[i] = FWDATA;
     }
     //uartsendstring((uint8_t*)addr,sizeof(buf));
-    uartsendstring(data,length);
+    //uartsendstring(data,length);
     MEMCTR = memctr;
 }
