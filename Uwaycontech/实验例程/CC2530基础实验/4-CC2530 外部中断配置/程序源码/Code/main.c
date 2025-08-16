@@ -1,5 +1,5 @@
 #include<iocc2530.h>                     //头文件
-#include<Headfile.h>
+#include "headfile.h"
 
 void delayms(uint16_t xms)          //ms级别延时
 {
@@ -13,7 +13,7 @@ void main(void)
     key_init();
     while(1);
 }
-uint8_t status=0;
+uint8_t state=0;
 #pragma vector = P0INT_VECTOR
 __interrupt void interrupt(void)
 {
@@ -22,8 +22,8 @@ __interrupt void interrupt(void)
         delayms(10);			//按下消抖
         while(KEY1 == 0);
         delayms(10);			//释放消抖
-        status = ~status;	    //改变状态
-        led_proc(1,status);
+        state = ~state;	        //改变状态
+        led_proc(1,state);
     }
     //消除中断状态标志位
     P0IFG = 0;
