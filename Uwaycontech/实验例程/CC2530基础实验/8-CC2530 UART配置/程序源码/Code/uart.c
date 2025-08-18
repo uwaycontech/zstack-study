@@ -13,10 +13,10 @@ void uart0_init(void)
 
 void uartsendstring(char *data,uint8_t len)
 {
-    for(;len>0;len--)
+    for(;len>0;len--)   
     {
-        U0DBUF = *data++;
-        while(UTX0IF == 0);
-        UTX0IF = 0;
+        U0DBUF = *data++;       //将要发送的字符串写入发送数据寄存器
+        while(UTX0IF == 0);     //等待发送完毕
+        UTX0IF = 0;             //清除发送标志位
     }
 }

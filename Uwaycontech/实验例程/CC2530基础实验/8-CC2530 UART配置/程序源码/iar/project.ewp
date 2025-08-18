@@ -142,15 +142,15 @@
         </option>
         <option>
           <name>RTDescription</name>
-          <state>Use the legacy C runtime library.</state>
+          <state>Use the normal configuration of the C/EC++ runtime library. No locale interface, C locale, no file descriptor support, no multibytes in printf and scanf, and no hex floats in strtod.</state>
         </option>
         <option>
           <name>RTConfigPath</name>
-          <state></state>
+          <state>$TOOLKIT_DIR$\LIB\DLIB\dl8051Normal.h</state>
         </option>
         <option>
           <name>RTLibraryPath</name>
-          <state>$TOOLKIT_DIR$\LIB\CLIB\cl-pli-blxd-1e16x01.r51</state>
+          <state>$TOOLKIT_DIR$\LIB\DLIB\dl-pli-blxd-1e16x01.r51</state>
         </option>
         <option>
           <name>Input variant</name>
@@ -243,12 +243,12 @@
         <option>
           <name>GRuntimeLibSelect2</name>
           <version>0</version>
-          <state>3</state>
+          <state>1</state>
         </option>
         <option>
           <name>GRuntimeLibSelectSlave2</name>
           <version>0</version>
-          <state>3</state>
+          <state>1</state>
         </option>
       </data>
     </settings>
@@ -439,8 +439,8 @@
         </option>
         <option>
           <name>CCIncludePath2</name>
-          <state>C:\Users\18539\Desktop\Uwaycontech\&#x5B9e;&#x9A8C;&#x4F8B;&#x7A0B;\CC2530&#x57FA;&#x7840;&#x5B9e;&#x9A8C;\8-CC2530 UART&#x914D;&#x7F6e;\&#x7A0B;&#x5e8F;&#x6e90;&#x7801;\Code</state>
-          <state>D:\IAR\IAR Systems\Embedded Workbench 6.0 Evaluation\8051\inc\dlib\c</state>
+          <state>$PROJ_DIR$\..\code</state>
+          <state>$TOOLKIT_DIR$\inc\dlib\c</state>
         </option>
         <option>
           <name>CCStdIncCheck</name>
@@ -2066,56 +2066,56 @@
     </settings>
   </configuration>
   <group>
-    <name>Code</name>
+    <name>code</name>
     <file>
-      <name>$PROJ_DIR$\..\Code\clk32m.c</name>
+      <name>$PROJ_DIR$\..\code\clk32m.c</name>
     </file>
     <file>
-      <name>$PROJ_DIR$\..\Code\clk32m.h</name>
+      <name>$PROJ_DIR$\..\code\clk32m.h</name>
     </file>
     <file>
-      <name>$PROJ_DIR$\..\Code\delay.c</name>
+      <name>$PROJ_DIR$\..\code\delay.c</name>
     </file>
     <file>
-      <name>$PROJ_DIR$\..\Code\delay.h</name>
+      <name>$PROJ_DIR$\..\code\delay.h</name>
     </file>
     <file>
-      <name>$PROJ_DIR$\..\Code\headfile.h</name>
+      <name>$PROJ_DIR$\..\code\headfile.h</name>
     </file>
     <file>
-      <name>$PROJ_DIR$\..\Code\key.c</name>
+      <name>$PROJ_DIR$\..\code\key.c</name>
     </file>
     <file>
-      <name>$PROJ_DIR$\..\Code\key.h</name>
+      <name>$PROJ_DIR$\..\code\key.h</name>
     </file>
     <file>
-      <name>$PROJ_DIR$\..\Code\led.c</name>
+      <name>$PROJ_DIR$\..\code\led.c</name>
     </file>
     <file>
-      <name>$PROJ_DIR$\..\Code\led.h</name>
+      <name>$PROJ_DIR$\..\code\led.h</name>
     </file>
     <file>
-      <name>$PROJ_DIR$\..\Code\main.c</name>
+      <name>$PROJ_DIR$\..\code\main.c</name>
     </file>
     <file>
-      <name>$PROJ_DIR$\..\Code\timer1.c</name>
+      <name>$PROJ_DIR$\..\code\timer1.c</name>
     </file>
     <file>
-      <name>$PROJ_DIR$\..\Code\timer1.h</name>
+      <name>$PROJ_DIR$\..\code\timer1.h</name>
     </file>
     <file>
-      <name>$PROJ_DIR$\..\Code\wdt.c</name>
+      <name>$PROJ_DIR$\..\code\uart.c</name>
     </file>
     <file>
-      <name>$PROJ_DIR$\..\Code\wdt.h</name>
+      <name>$PROJ_DIR$\..\code\uart.h</name>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\code\wdt.c</name>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\code\wdt.h</name>
     </file>
   </group>
-  <file>
-    <name>$PROJ_DIR$\..\Code\uart.c</name>
-  </file>
-  <file>
-    <name>$PROJ_DIR$\..\Code\uart.h</name>
-  </file>
 </project>
 
 

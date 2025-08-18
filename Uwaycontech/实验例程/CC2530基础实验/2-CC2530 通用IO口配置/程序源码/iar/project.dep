@@ -2,42 +2,51 @@
 
 <project>
   <fileVersion>2</fileVersion>
-  <fileChecksum>2094030165</fileChecksum>
+  <fileChecksum>1137967235</fileChecksum>
   <configuration>
     <name>Debug</name>
     <outputs>
-      <file>$TOOLKIT_DIR$\config\devices\Texas Instruments\lnk51ew_CC2530F256_banked.xcl</file>
-      <file>$PROJ_DIR$\Debug\Exe\project.d51</file>
-      <file>$PROJ_DIR$\Debug\Exe\project.hex</file>
-      <file>$PROJ_DIR$\main.c</file>
-      <file>$TOOLKIT_DIR$\lib\clib\cl-pli-blxd-1e16x01.r51</file>
-      <file>$TOOLKIT_DIR$\inc\iocc2530.h</file>
-      <file>$PROJ_DIR$\Debug\Obj\main.pbi</file>
       <file>$PROJ_DIR$\Debug\Obj\project.pbd</file>
+      <file>$PROJ_DIR$\Debug\Exe\project.d51</file>
+      <file>$PROJ_DIR$\Debug\Obj\main.pbi</file>
+      <file>$TOOLKIT_DIR$\inc\iocc2530.h</file>
+      <file>$PROJ_DIR$\main.c</file>
+      <file>$TOOLKIT_DIR$\lib\dlib\dl-pli-blxd-1e16x01.r51</file>
+      <file>$PROJ_DIR$\Debug\Exe\project.hex</file>
+      <file>$PROJ_DIR$\..\code\main.c</file>
+      <file>$TOOLKIT_DIR$\config\devices\Texas Instruments\lnk51ew_CC2530F256_banked.xcl</file>
       <file>$PROJ_DIR$\Debug\Obj\main.r51</file>
-      <file>$PROJ_DIR$\..\Code\main.c</file>
     </outputs>
     <file>
       <name>[ROOT_NODE]</name>
       <outputs>
         <tool>
           <name>XLINK</name>
-          <file> 1 2</file>
+          <file> 1 6</file>
         </tool>
       </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Debug\Obj\project.pbd</name>
+      <inputs>
+        <tool>
+          <name>BILINK</name>
+          <file> 2</file>
+        </tool>
+      </inputs>
     </file>
     <file>
       <name>$PROJ_DIR$\Debug\Exe\project.d51</name>
       <outputs>
         <tool>
           <name>XLINK</name>
-          <file> 2</file>
+          <file> 6</file>
         </tool>
       </outputs>
       <inputs>
         <tool>
           <name>XLINK</name>
-          <file> 0 8 4</file>
+          <file> 8 9 5</file>
         </tool>
       </inputs>
     </file>
@@ -46,41 +55,42 @@
       <outputs>
         <tool>
           <name>BICOMP</name>
-          <file> 6</file>
+          <file> 2</file>
         </tool>
         <tool>
           <name>ICC8051</name>
-          <file> 8</file>
+          <file> 9</file>
         </tool>
       </outputs>
       <inputs>
         <tool>
           <name>ICC8051</name>
-          <file> 5</file>
+          <file> 3</file>
         </tool>
       </inputs>
     </file>
     <file>
-      <name>$PROJ_DIR$\Debug\Obj\project.pbd</name>
-      <inputs>
-        <tool>
-          <name>BILINK</name>
-          <file> 6</file>
-        </tool>
-      </inputs>
-    </file>
-    <file>
-      <name>$PROJ_DIR$\..\Code\main.c</name>
+      <name>$PROJ_DIR$\..\code\main.c</name>
       <outputs>
         <tool>
           <name>BICOMP</name>
-          <file> 6</file>
+          <file> 2</file>
         </tool>
         <tool>
           <name>ICC8051</name>
-          <file> 8</file>
+          <file> 9</file>
         </tool>
       </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 3</file>
+        </tool>
+        <tool>
+          <name>ICC8051</name>
+          <file> 3</file>
+        </tool>
+      </inputs>
     </file>
   </configuration>
   <configuration>
