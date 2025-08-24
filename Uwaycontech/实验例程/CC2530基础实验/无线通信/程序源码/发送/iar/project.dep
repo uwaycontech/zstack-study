@@ -1,0 +1,564 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project>
+    <fileVersion>2</fileVersion>
+    <fileChecksum>3787699640</fileChecksum>
+    <configuration>
+        <name>Debug</name>
+        <outputs>
+            <file>$TOOLKIT_DIR$\inc\dlib\c\DLib_Product.h</file>
+            <file>$PROJ_DIR$\Debug\Exe\project.hex</file>
+            <file>$PROJ_DIR$\Debug\Obj\timer1.r51</file>
+            <file>$PROJ_DIR$\Debug\Obj\uart.r51</file>
+            <file>$PROJ_DIR$\Code\Inc\Headfile.h</file>
+            <file>$PROJ_DIR$\Code\delay.c</file>
+            <file>$PROJ_DIR$\Debug\Obj\wdt.pbi</file>
+            <file>$PROJ_DIR$\Code\src\LED.c</file>
+            <file>$PROJ_DIR$\Debug\Obj\led.r51</file>
+            <file>$TOOLKIT_DIR$\lib\dlib\dl-pli-blxd-1e16x01n.r51</file>
+            <file>$PROJ_DIR$\Code\led.h</file>
+            <file>$TOOLKIT_DIR$\inc\dlib\c\yvals.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\delay.pbi</file>
+            <file>$PROJ_DIR$\Code\delay.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\rnd.pbi</file>
+            <file>$PROJ_DIR$\..\Code\flash.c</file>
+            <file>$TOOLKIT_DIR$\inc\dlib\c\xencoding_limits.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\flash.r51</file>
+            <file>$PROJ_DIR$\Debug\Obj\project.pbd</file>
+            <file>$TOOLKIT_DIR$\inc\dlib\c\DLib_Threads.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\led.pbi</file>
+            <file>$TOOLKIT_DIR$\inc\dlib\c\string.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\pw.r51</file>
+            <file>$PROJ_DIR$\Code\Inc\LED.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\key.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\flash.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\timer1.pbi</file>
+            <file>$TOOLKIT_DIR$\inc\dlib\c\stdio.h</file>
+            <file>$TOOLKIT_DIR$\inc\dlib\c\ystdio.h</file>
+            <file>$TOOLKIT_DIR$\inc\dlib\c\ysizet.h</file>
+            <file>$PROJ_DIR$\Code\led.c</file>
+            <file>$PROJ_DIR$\Debug\Obj\wdt.r51</file>
+            <file>$PROJ_DIR$\Debug\Obj\pw.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\clk32m.pbi</file>
+            <file>$TOOLKIT_DIR$\inc\dlib\c\DLib_Defaults.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\rf.r51</file>
+            <file>$PROJ_DIR$\Debug\Obj\dma.r51</file>
+            <file>$PROJ_DIR$\Debug\Obj\rf.pbi</file>
+            <file>$TOOLKIT_DIR$\inc\dlib\c\ycheck.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\delay.r51</file>
+            <file>$PROJ_DIR$\Debug\Obj\main.r51</file>
+            <file>$PROJ_DIR$\Debug\Obj\adc.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\rnd.r51</file>
+            <file>$TOOLKIT_DIR$\config\devices\Texas Instruments\lnk51ew_cc2530F256_banked.xcl</file>
+            <file>$TOOLKIT_DIR$\inc\ioCC2530.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\clk32m.r51</file>
+            <file>$PROJ_DIR$\Code\clk32m.h</file>
+            <file>$PROJ_DIR$\main.c</file>
+            <file>$PROJ_DIR$\Debug\Obj\key.r51</file>
+            <file>$TOOLKIT_DIR$\inc\dlib\c\stdint.h</file>
+            <file>$PROJ_DIR$\Code\key.h</file>
+            <file>$PROJ_DIR$\Code\key.c</file>
+            <file>$TOOLKIT_DIR$\lib\dlib\dl8051Normal.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\adc.r51</file>
+            <file>$PROJ_DIR$\Code\clk32m.c</file>
+            <file>$PROJ_DIR$\Debug\Obj\uart.pbi</file>
+            <file>$PROJ_DIR$\Debug\Exe\project.d51</file>
+            <file>$PROJ_DIR$\Debug\Obj\dma.pbi</file>
+            <file>$PROJ_DIR$\..\code\pw.c</file>
+            <file>$PROJ_DIR$\..\code\main.c</file>
+            <file>$PROJ_DIR$\..\code\pw.h</file>
+            <file>$PROJ_DIR$\..\code\rf.c</file>
+            <file>$PROJ_DIR$\Code\headfile.h</file>
+            <file>$PROJ_DIR$\..\code\rf.h</file>
+            <file>$PROJ_DIR$\..\code\rnd.h</file>
+            <file>$PROJ_DIR$\..\code\led.h</file>
+            <file>$PROJ_DIR$\..\code\dma.c</file>
+            <file>$PROJ_DIR$\..\code\delay.h</file>
+            <file>$PROJ_DIR$\..\code\adc.c</file>
+            <file>$PROJ_DIR$\..\code\key.c</file>
+            <file>$PROJ_DIR$\..\code\rnd.c</file>
+            <file>$PROJ_DIR$\..\code\key.h</file>
+            <file>$PROJ_DIR$\..\code\led.c</file>
+            <file>$PROJ_DIR$\..\code\adc.h</file>
+            <file>$PROJ_DIR$\..\code\clk32m.h</file>
+            <file>$PROJ_DIR$\..\code\headfile.h</file>
+            <file>$PROJ_DIR$\..\code\delay.c</file>
+            <file>$PROJ_DIR$\..\code\clk32m.c</file>
+            <file>$PROJ_DIR$\..\code\dma.h</file>
+            <file>$PROJ_DIR$\..\code\wdt.c</file>
+            <file>$PROJ_DIR$\..\code\uart.h</file>
+            <file>$PROJ_DIR$\..\code\wdt.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\main.pbi</file>
+            <file>$PROJ_DIR$\..\code\timer1.h</file>
+            <file>$PROJ_DIR$\..\code\timer1.c</file>
+            <file>$PROJ_DIR$\..\code\uart.c</file>
+        </outputs>
+        <file>
+            <name>$PROJ_DIR$\Code\delay.c</name>
+            <outputs>
+                <tool>
+                    <name>ICC8051</name>
+                    <file> 39</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 12</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICC8051</name>
+                    <file> 62 44 49 38 11 34 0 16 19 10 50 13 46</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\Code\src\LED.c</name>
+            <outputs>
+                <tool>
+                    <name>ICC8051</name>
+                    <file> 8</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 20</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICC8051</name>
+                    <file> 4 44 23</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 4 44 23</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Code\flash.c</name>
+            <outputs>
+                <tool>
+                    <name>ICC8051</name>
+                    <file> 17</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 25</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 75 44 27 38 11 34 0 16 19 29 28 49 21 65 71 67 74 83 81 80 73 60 78 64</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\Code\led.c</name>
+            <outputs>
+                <tool>
+                    <name>ICC8051</name>
+                    <file> 8</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 20</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICC8051</name>
+                    <file> 62 44 49 38 11 34 0 16 19 10 50 13 46</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\main.c</name>
+            <outputs>
+                <tool>
+                    <name>ICC8051</name>
+                    <file> 40</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 82</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICC8051</name>
+                    <file> 44 62 49 38 11 34 0 16 19 10 50 13 46</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\Code\key.c</name>
+            <outputs>
+                <tool>
+                    <name>ICC8051</name>
+                    <file> 48</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 24</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICC8051</name>
+                    <file> 62 44 49 38 11 34 0 16 19 10 50 13 46</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\Code\clk32m.c</name>
+            <outputs>
+                <tool>
+                    <name>ICC8051</name>
+                    <file> 45</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 33</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICC8051</name>
+                    <file> 62 44 49 38 11 34 0 16 19 10 50 13 46</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\Debug\Exe\project.d51</name>
+            <outputs>
+                <tool>
+                    <name>XLINK</name>
+                    <file> 1</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>XLINK</name>
+                    <file> 43 53 45 39 36 48 8 40 22 35 42 2 3 31 9</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\code\pw.c</name>
+            <outputs>
+                <tool>
+                    <name>ICC8051</name>
+                    <file> 22</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 32</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICC8051</name>
+                    <file> 75 44 27 38 11 34 52 0 16 19 29 28 49 21 65 71 67 74 83 81 80 73 60 78 64 63</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 60 75 65 52 44 83 38 49 67 80 64 28 16 27 21 71 74 81 73 78 63 11 0 29 34 19</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\code\main.c</name>
+            <outputs>
+                <tool>
+                    <name>ICC8051</name>
+                    <file> 40</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 82</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICC8051</name>
+                    <file> 44 75 27 38 11 34 52 0 16 19 29 28 49 21 65 71 67 74 83 81 80 73 60 78 64 63</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 75 81 52 27 38 71 78 28 16 21 74 73 63 11 0 44 49 65 67 83 80 60 64 29 34 19</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\code\rf.c</name>
+            <outputs>
+                <tool>
+                    <name>ICC8051</name>
+                    <file> 35</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 37</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICC8051</name>
+                    <file> 75 44 27 38 11 34 52 0 16 19 29 28 49 21 65 71 67 74 83 81 80 73 60 78 64 63</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 83 75 44 52 65 60 38 49 67 80 64 28 16 27 21 71 74 81 73 78 63 11 0 29 34 19</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\code\dma.c</name>
+            <outputs>
+                <tool>
+                    <name>ICC8051</name>
+                    <file> 36</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 57</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICC8051</name>
+                    <file> 75 44 27 38 11 34 52 0 16 19 29 28 49 21 65 71 67 74 83 81 80 73 60 78 64 63</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 78 75 71 52 27 81 38 21 74 73 63 28 16 44 49 65 67 83 80 60 64 11 0 29 34 19</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\code\adc.c</name>
+            <outputs>
+                <tool>
+                    <name>ICC8051</name>
+                    <file> 53</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 41</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICC8051</name>
+                    <file> 75 44 27 38 11 34 52 0 16 19 29 28 49 21 65 71 67 74 83 81 80 73 60 78 64 63</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 81 75 27 52 71 78 38 21 74 73 63 28 16 44 49 65 67 83 80 60 64 11 0 29 34 19</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\code\key.c</name>
+            <outputs>
+                <tool>
+                    <name>ICC8051</name>
+                    <file> 48</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 24</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICC8051</name>
+                    <file> 75 44 27 38 11 34 52 0 16 19 29 28 49 21 65 71 67 74 83 81 80 73 60 78 64 63</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 78 75 71 52 27 81 38 21 74 73 63 28 16 44 49 65 67 83 80 60 64 11 0 29 34 19</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\code\rnd.c</name>
+            <outputs>
+                <tool>
+                    <name>ICC8051</name>
+                    <file> 42</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 14</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICC8051</name>
+                    <file> 75 44 27 38 11 34 52 0 16 19 29 28 49 21 65 71 67 74 83 81 80 73 60 78 64 63</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 83 75 44 52 65 60 38 49 67 80 64 28 16 27 21 71 74 81 73 78 63 11 0 29 34 19</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\code\led.c</name>
+            <outputs>
+                <tool>
+                    <name>ICC8051</name>
+                    <file> 8</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 20</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICC8051</name>
+                    <file> 75 44 27 38 11 34 52 0 16 19 29 28 49 21 65 71 67 74 83 81 80 73 60 78 64 63</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 80 75 49 52 67 64 38 44 65 83 60 28 16 27 21 71 74 81 73 78 63 11 0 29 34 19</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\code\delay.c</name>
+            <outputs>
+                <tool>
+                    <name>ICC8051</name>
+                    <file> 39</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 12</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICC8051</name>
+                    <file> 75 44 27 38 11 34 52 0 16 19 29 28 49 21 65 71 67 74 83 81 80 73 60 78 64 63</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 80 75 49 52 67 64 38 44 65 83 60 28 16 27 21 71 74 81 73 78 63 11 0 29 34 19</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\code\clk32m.c</name>
+            <outputs>
+                <tool>
+                    <name>ICC8051</name>
+                    <file> 45</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 33</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICC8051</name>
+                    <file> 75 44 27 38 11 34 52 0 16 19 29 28 49 21 65 71 67 74 83 81 80 73 60 78 64 63</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 78 75 71 52 27 81 38 21 74 73 63 28 16 44 49 65 67 83 80 60 64 11 0 29 34 19</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>[ROOT_NODE]</name>
+            <outputs>
+                <tool>
+                    <name>XLINK</name>
+                    <file> 56 1</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\code\wdt.c</name>
+            <outputs>
+                <tool>
+                    <name>ICC8051</name>
+                    <file> 31</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 6</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICC8051</name>
+                    <file> 75 44 27 38 11 34 52 0 16 19 29 28 49 21 65 71 67 74 83 81 80 73 60 78 64 63</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 78 75 71 52 27 81 38 21 74 73 63 28 16 44 49 65 67 83 80 60 64 11 0 29 34 19</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\code\timer1.c</name>
+            <outputs>
+                <tool>
+                    <name>ICC8051</name>
+                    <file> 2</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 26</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICC8051</name>
+                    <file> 75 44 27 38 11 34 52 0 16 19 29 28 49 21 65 71 67 74 83 81 80 73 60 78 64 63</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 78 75 71 52 27 81 38 21 74 73 63 28 16 44 49 65 67 83 80 60 64 11 0 29 34 19</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\code\uart.c</name>
+            <outputs>
+                <tool>
+                    <name>ICC8051</name>
+                    <file> 3</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 55</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICC8051</name>
+                    <file> 75 44 27 38 11 34 52 0 16 19 29 28 49 21 65 71 67 74 83 81 80 73 60 78 64 63</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 60 75 65 52 44 83 38 49 67 80 64 28 16 27 21 71 74 81 73 78 63 11 0 29 34 19</file>
+                </tool>
+            </inputs>
+        </file>
+    </configuration>
+    <configuration>
+        <name>Release</name>
+        <outputs />
+        <forcedrebuild>
+            <name>[MULTI_TOOL]</name>
+            <tool>XLINK</tool>
+        </forcedrebuild>
+    </configuration>
+</project>
